@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музлофт</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <div class="header_admin head_menu container">
+            <div class="logo">
+                <a href="#" class="logo">
+                    <svg width="50" height="33" viewBox="0 0 50 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="49.9106" y="28.3394" width="4.64286" height="15.0893" rx="2.32143"
+                            transform="rotate(180 49.9106 28.3394)" fill="url(#paint0_linear_405_1279)" />
+                        <rect x="4.64282" y="20.2144" width="4.64286" height="15.0893" rx="2.32143"
+                            transform="rotate(180 4.64282 20.2144)" fill="url(#paint1_linear_405_1279)" />
+                        <rect x="41.7856" y="32.9822" width="5.80357" height="32.5" rx="2.90179"
+                            transform="rotate(180 41.7856 32.9822)" fill="url(#paint2_linear_405_1279)" />
+                        <rect x="32.5" y="30.6606" width="5.80357" height="23.2143" rx="2.90179"
+                            transform="rotate(180 32.5 30.6606)" fill="url(#paint3_linear_405_1279)" />
+                        <rect x="23.2144" y="26.0178" width="5.80357" height="23.2143" rx="2.90179"
+                            transform="rotate(180 23.2144 26.0178)" fill="url(#paint4_linear_405_1279)" />
+                        <rect x="13.9287" y="32.9822" width="5.80357" height="32.5" rx="2.90179"
+                            transform="rotate(180 13.9287 32.9822)" fill="url(#paint5_linear_405_1279)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_405_1279" x1="49.9106" y1="35.884" x2="54.5535"
+                                y2="35.884" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_405_1279" x1="4.64282" y1="27.759" x2="9.28568"
+                                y2="27.759" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_405_1279" x1="41.7856" y1="49.2322" x2="47.5892"
+                                y2="49.2322" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_405_1279" x1="32.5" y1="42.2678" x2="38.3036" y2="42.2678"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_405_1279" x1="23.2144" y1="37.625" x2="29.0179"
+                                y2="37.625" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint5_linear_405_1279" x1="13.9287" y1="49.2322" x2="19.7323"
+                                y2="49.2322" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                    <div class="logo_text">
+                        <p>МУЗЛОФТ</p>
+                        <span>сервис музыки</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Бургер-меню -->
+            <button class="burger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="header_nav">
+                <a href="admin.html">САЙТ</a>
+                <svg width="2" height="18" viewBox="0 0 2 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0V18" stroke="white" stroke-opacity="0.64" stroke-width="0.5" />
+                </svg>
+                <a href="content_admin.html">КОНТЕНТ</a>
+                <svg width="2" height="18" viewBox="0 0 2 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 0V18" stroke="white" stroke-opacity="0.64" stroke-width="0.5" />
+                </svg>
+                <a href="usersadmin.html">ПОЛЬЗОВАТЕЛИ</a>
+            </nav>
+
+            <div class="exit_btn">
+                <a href="index.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.5694 17.6806L22.125 12.125M22.125 12.125L16.5694 6.56944M22.125 12.125H8.79167M8.79167 22.125H4.34722C3.75785 22.125 3.19262 21.8909 2.77587 21.4741C2.35913 21.0574 2.125 20.4921 2.125 19.9028V4.34722C2.125 3.75785 2.35913 3.19262 2.77587 2.77587C3.19262 2.35913 3.75785 2.125 4.34722 2.125H8.79167"
+                            stroke="#BBC1C7" stroke-width="2.80702" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+            </div>
+        </div>
+        <div class="mobile_menu_overlay"></div>
+        <div class="mobile_menu mobile_admin">
+            <button class="close_menu" aria-label="Закрыть меню">&times;</button>
+
+            <nav class="mobile_nav">
+                <a href="admin.html">САЙТ</a>
+                <a href="content_admin.html">КОНТЕНТ</a>
+                <a href="usersadmin.html">ПОЛЬЗОВАТЕЛИ</a>
+                <a href="index.html" class="mobile_login">
+                    <p>ВЫЙТИ ИЗ ПРОФИЛЯ</p>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0ZM17.6055 11.7578C17.3712 11.5235 16.9921 11.5235 16.7578 11.7578C16.5235 11.9921 16.5235 12.3712 16.7578 12.6055L19.5518 15.4004H11V16.5996H19.5518L16.7578 19.3945C16.5235 19.6288 16.5235 20.0079 16.7578 20.2422C16.9921 20.4765 17.3712 20.4765 17.6055 20.2422L21.4238 16.4238C21.6581 16.1895 21.6581 15.8105 21.4238 15.5762L17.6055 11.7578Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <div class="logo_burger">
+                    <svg width="88" height="58" viewBox="0 0 88 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="87.3862" y="48.8706" width="8.12897" height="26.4191" rx="4.06448"
+                            transform="rotate(180 87.3862 48.8706)" fill="url(#paint0_linear_561_1097)" />
+                        <rect x="8.12842" y="35.4189" width="8.12897" height="26.4191" rx="4.06448"
+                            transform="rotate(180 8.12842 35.4189)" fill="url(#paint1_linear_561_1097)" />
+                        <rect x="24.3867" y="57.9028" width="10.1612" height="56.9028" rx="5.08061"
+                            transform="rotate(180 24.3867 57.9028)" fill="url(#paint2_linear_561_1097)" />
+                        <rect x="73.1606" y="57" width="10.1612" height="56.9028" rx="5.08061"
+                            transform="rotate(180 73.1606 57)" fill="url(#paint3_linear_561_1097)" />
+                        <rect x="56.9028" y="52.9351" width="10.1612" height="40.6448" rx="5.08061"
+                            transform="rotate(180 56.9028 52.9351)" fill="url(#paint4_linear_561_1097)" />
+                        <rect x="40.645" y="44.8052" width="10.1612" height="40.6448" rx="5.08061"
+                            transform="rotate(180 40.645 44.8052)" fill="url(#paint5_linear_561_1097)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_561_1097" x1="87.3862" y1="62.0802" x2="95.5152"
+                                y2="62.0802" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_561_1097" x1="8.12842" y1="48.6285" x2="16.2574"
+                                y2="48.6285" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_561_1097" x1="24.3867" y1="86.3542" x2="34.5479"
+                                y2="86.3542" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_561_1097" x1="73.1606" y1="85.4514" x2="83.3219"
+                                y2="85.4514" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_561_1097" x1="56.9028" y1="73.2575" x2="67.064"
+                                y2="73.2575" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint5_linear_561_1097" x1="40.645" y1="65.1276" x2="50.8062"
+                                y2="65.1276" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="logo_text">
+                        <p>МУЗЛОФТ</p>
+                        <span>сервис музыки</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>   
+    <!-- header end -->
+
+    <!-- btn_arr_top start-->
+    <div class="btn_arr_top">
+        <a href="#">
+            <svg width="16" height="7" viewBox="0 0 16 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 6L6.69842 1.11564C7.4474 0.47366 8.5526 0.47366 9.30158 1.11564L15 6" stroke="white"
+                    stroke-linecap="round" />
+            </svg>
+        </a>
+    </div>
+    <!-- btn_arr_top end -->
+
+    <!-- table_content start -->
+    <div class="table_content container">
+        <!-- search start -->
+        <div class="search_container">
+            <form class="search_form_content">
+                <input type="text" name="query" placeholder="Введите параметры" class="search_input_content"
+                    autocomplete="off">
+                <button type="submit" class="search_btn_content submit_btn">Поиск</button>
+            </form>
+        </div>
+        <!-- search end -->
+        <table class="content_accountion">
+            <thead class="head_content_admin">
+                <tr>
+                    <th>Имя Фамилия</th>
+                    <th>Никнейм</th>
+                    <th>Почта</th>
+                    <th>Номер</th>
+                    <th>Подписка</th>
+                    <th>Дата регистрации</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="body_content_admin">
+                <tr>
+                    <td>Файзутдинова Ксения</td>
+                    <td>Durashka2004</td>
+                    <td>kfayzut@gmail.com</td>
+                    <td>+7 917 887 20 27</td>
+                    <td>Премиум</td>
+                    <td>12. 07. 2025</td>
+                    <td><button class="content_admin_btn" data-modal-id="modal-1"><svg width="16" height="17"
+                                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_727_4786)">
+                                    <ellipse cx="7.66406" cy="3.5" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="8.83301" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="14.167" rx="1" ry="1" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_727_4786">
+                                        <rect width="16" height="16" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Мусина Ралина</td>
+                    <td>wicsay</td>
+                    <td>wicsay@mail.ru</td>
+                    <td>+7 917 566 33 47</td>
+                    <td>Базовая</td>
+                    <td>23. 07. 2025</td>
+                    <td><button class="content_admin_btn" data-modal-id="modal-1"><svg width="16" height="17"
+                                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_727_4786)">
+                                    <ellipse cx="7.66406" cy="3.5" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="8.83301" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="14.167" rx="1" ry="1" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_727_4786">
+                                        <rect width="16" height="16" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Матросова Полина</td>
+                    <td>Polya</td>
+                    <td>Polya@gmail.com</td>
+                    <td>+7 919 684 22 77</td>
+                    <td>Повышенная</td>
+                    <td>14. 08. 2025</td>
+                    <td><button class="content_admin_btn" data-modal-id="modal-1"><svg width="16" height="17"
+                                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_727_4786)">
+                                    <ellipse cx="7.66406" cy="3.5" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="8.83301" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="14.167" rx="1" ry="1" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_727_4786">
+                                        <rect width="16" height="16" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Еременко Злата</td>
+                    <td>Zyzzik2004</td>
+                    <td>zyzzik@gmail.com</td>
+                    <td>+7 906 997 77 77</td>
+                    <td>Премиум</td>
+                    <td>19. 08. 2025</td>
+                    <td><button class="content_admin_btn" data-modal-id="modal-1"><svg width="16" height="17"
+                                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_727_4786)">
+                                    <ellipse cx="7.66406" cy="3.5" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="8.83301" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="14.167" rx="1" ry="1" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_727_4786">
+                                        <rect width="16" height="16" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Альчина Дарья</td>
+                    <td>dshikss2004</td>
+                    <td>dshikss@gmail.com</td>
+                    <td>+7 919 334 55 66</td>
+                    <td>Повышенная</td>
+                    <td>30. 08. 2025</td>
+                    <td><button class="content_admin_btn" data-modal-id="modal-1"><svg width="16" height="17"
+                                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_727_4786)">
+                                    <ellipse cx="7.66406" cy="3.5" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="8.83301" rx="1" ry="1" fill="white" />
+                                    <ellipse cx="7.66406" cy="14.167" rx="1" ry="1" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_727_4786">
+                                        <rect width="16" height="16" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- table_content end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="foot_menu container">
+            <div class="foot_menu_left">
+                <a href="index.html" class="logo_foot">
+                    <svg width="88" height="58" viewBox="0 0 88 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="87.3862" y="48.8706" width="8.12897" height="26.4191" rx="4.06448"
+                            transform="rotate(180 87.3862 48.8706)" fill="url(#paint0_linear_561_1097)" />
+                        <rect x="8.12842" y="35.4189" width="8.12897" height="26.4191" rx="4.06448"
+                            transform="rotate(180 8.12842 35.4189)" fill="url(#paint1_linear_561_1097)" />
+                        <rect x="24.3867" y="57.9028" width="10.1612" height="56.9028" rx="5.08061"
+                            transform="rotate(180 24.3867 57.9028)" fill="url(#paint2_linear_561_1097)" />
+                        <rect x="73.1606" y="57" width="10.1612" height="56.9028" rx="5.08061"
+                            transform="rotate(180 73.1606 57)" fill="url(#paint3_linear_561_1097)" />
+                        <rect x="56.9028" y="52.9351" width="10.1612" height="40.6448" rx="5.08061"
+                            transform="rotate(180 56.9028 52.9351)" fill="url(#paint4_linear_561_1097)" />
+                        <rect x="40.645" y="44.8052" width="10.1612" height="40.6448" rx="5.08061"
+                            transform="rotate(180 40.645 44.8052)" fill="url(#paint5_linear_561_1097)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_561_1097" x1="87.3862" y1="62.0802" x2="95.5152"
+                                y2="62.0802" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_561_1097" x1="8.12842" y1="48.6285" x2="16.2574"
+                                y2="48.6285" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_561_1097" x1="24.3867" y1="86.3542" x2="34.5479"
+                                y2="86.3542" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_561_1097" x1="73.1606" y1="85.4514" x2="83.3219"
+                                y2="85.4514" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_561_1097" x1="56.9028" y1="73.2575" x2="67.064"
+                                y2="73.2575" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                            <linearGradient id="paint5_linear_561_1097" x1="40.645" y1="65.1276" x2="50.8062"
+                                y2="65.1276" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#58F8F6" />
+                                <stop offset="1" stop-color="#3256FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="text_logo">
+                        <p>МУЗЛОФТ</p>
+                        <span>сервис музыки</span>
+                    </div>
+                </a>
+                <div class="social_icon">
+                    <a href="https://t.me/durashka03"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.156083 14.0674C0.5361 8.96023 0.727207 6.40554 3.28958 3.84207C5.85415 1.2786 8.40774 1.08859 13.5149 0.707474C14.8406 0.608626 16.2069 0.549316 17.5732 0.549316C18.9395 0.549316 20.3047 0.609724 21.6293 0.707474C26.7365 1.08859 29.2911 1.2786 31.8546 3.84207C34.4181 6.40554 34.6081 8.96023 34.9881 14.0674C35.087 15.392 35.1463 16.7583 35.1463 18.1235C35.1463 19.4898 35.087 20.855 34.9881 22.1796C34.6081 27.2867 34.4181 29.8414 31.8546 32.4049C29.2911 34.9684 26.7365 35.1584 21.6293 35.5395C20.3047 35.6383 18.9384 35.6977 17.5732 35.6977C16.2197 35.6946 14.8667 35.6415 13.5171 35.5384C8.40884 35.1584 5.85525 34.9684 3.29178 32.4049C0.728306 29.8414 0.537199 27.2867 0.157181 22.1796C0.0544945 20.83 0.00173922 19.477 -0.000976562 18.1235C-0.000976562 16.7572 0.0583326 15.392 0.157181 14.0674M23.3866 25.7249L26.3586 11.7038C26.6222 10.4671 25.9149 9.98496 25.1065 10.287L7.62574 17.023C6.43296 17.4898 6.45054 18.1575 7.42255 18.4618L12.41 20.3289L17.0405 16.9626C17.1058 16.8979 17.1835 16.8472 17.2689 16.8134C17.3544 16.7795 17.4458 16.7634 17.5376 16.7658C17.6295 16.7682 17.7199 16.7892 17.8034 16.8275C17.8869 16.8658 17.9618 16.9206 18.0236 16.9887C18.0854 17.0567 18.1327 17.1365 18.1629 17.2233C18.193 17.3101 18.2052 17.4021 18.1989 17.4937C18.1925 17.5854 18.1676 17.6748 18.1258 17.7566C18.084 17.8384 18.026 17.9109 17.9554 17.9697L14.4364 21.168L14.1168 25.7041C14.5836 25.7041 14.7846 25.502 15.0273 25.2603L17.2129 23.1571L21.7435 26.496C22.5749 26.9616 23.1592 26.7156 23.3833 25.726"
+                                fill="#BBC1C7" />
+                        </svg></a>
+                    <a href="https://vk.com/durashka3"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.877396 14.0675C1.25741 8.95925 1.44852 6.40457 4.01089 3.84219C6.57437 1.27652 9.12905 1.08652 14.2362 0.706497C15.5862 0.603784 16.9395 0.551029 18.2934 0.54834C19.6586 0.54834 21.0249 0.607649 22.3495 0.706497C27.4567 1.08652 30.0114 1.27762 32.5748 3.84C35.1383 6.40237 35.3283 8.95815 35.7083 14.0653C35.8072 15.3899 35.8665 16.7562 35.8665 18.1225C35.8638 19.476 35.811 20.829 35.7083 22.1786C35.3283 27.2858 35.1383 29.8405 32.5748 32.4039C30.0114 34.9674 27.4567 35.1574 22.3495 35.5374C21.0249 35.6363 19.6586 35.6956 18.2934 35.6956C16.9399 35.6929 15.5869 35.6401 14.2373 35.5374C9.12905 35.1574 6.57437 34.9674 4.01199 32.4039C1.44632 29.8405 1.25741 27.2869 0.876298 22.1797C0.773977 20.8301 0.721589 19.4771 0.719238 18.1236C0.721954 16.7701 0.774709 15.4171 0.877396 14.0675ZM9.67491 12.1125H7.13341C6.40852 12.1125 6.26244 12.464 6.26244 12.8462C6.26244 13.5206 7.13341 16.8935 10.2702 21.3516C12.3757 24.3873 15.3378 26.0447 18.0243 26.0447C19.6355 26.0447 19.8387 25.6778 19.8387 25.0474V22.7453C19.8387 22.0116 19.9837 21.8656 20.5065 21.8656C20.8843 21.8656 21.5236 22.0556 23.0326 23.5229C23.55 24.0435 23.9366 24.4785 24.2518 24.8332C24.9876 25.6625 25.3281 26.0447 26.0091 26.0447H28.5506C29.2777 26.0447 29.6401 25.6778 29.4227 24.9595C29.2041 24.2259 28.3771 23.2 27.2875 21.9534C26.9844 21.5789 26.5956 21.1956 26.2551 20.8606C25.9421 20.5531 25.6708 20.2884 25.5456 20.105C25.1678 19.6063 25.2545 19.3867 25.5456 18.9616C25.5456 18.9616 28.6385 14.5618 28.9581 13.0516C29.1173 12.509 28.9581 12.1136 28.1881 12.1136H25.6466C25.4089 12.0995 25.1729 12.1631 24.9745 12.2948C24.7747 12.4268 24.6235 12.6204 24.5439 12.8462C24.5439 12.8462 23.2369 16.0137 21.4214 18.0819C20.8261 18.6826 20.5504 18.8727 20.2308 18.8727C20.0859 18.8727 19.8387 18.6826 19.8387 18.1401V13.0516C19.8387 12.4058 19.6498 12.1136 19.1138 12.1136H15.1182C14.7118 12.1136 14.4658 12.4069 14.4658 12.7001C14.4658 12.9341 14.6009 13.101 14.7722 13.313C15.0512 13.6579 15.4279 14.1213 15.4817 15.1922V18.9759C15.4817 19.8117 15.3367 19.9589 15.0171 19.9589C14.1462 19.9589 12.055 16.7628 10.8062 13.1098C10.5733 12.4069 10.3273 12.1136 9.67382 12.1136"
+                                fill="#BBC1C7" />
+                        </svg></a>
+                </div>
+            </div>
+            <div class="foot_menu_right">
+                <div class="fot_right_top">
+                    <div class="nav_foot_l">
+                        <a href="assets/documents/offert.docx">Договор оферты</a>
+                        <a href="assets/documents/information.docx">Данные компании</a>
+                        <a href="assets/documents/privacy_policy.docx">Политика конфиденциальности</a>
+                    </div>
+                    <div class="nav_foot_r nav_foot_l">
+                        <a href="mailto:MusLoft@mail.ru">MusLoft@mail.ru</a>
+                        <a href="tel:+79178872027">+7 (917) 887-20-27</a>
+                    </div>
+                </div>
+                <div class="fot_right_bottom">
+                    <p>© Файзутдинова Ксения Альбертовна</p>
+                    <span>16+</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <div class="catalog_subscribe">
+        <!-- Модальное окно профиля пользователя -->
+        <div class="modal_overlay" id="userProfileModal" style="display: none;">
+            <div class="bgc_modal_subsc all_modals_of_crudacc">
+                <div class="modal">
+                    <div class="modal_header">
+                        <h2 class="modal_title">
+                            <svg width="26" height="2" viewBox="0 0 26 2" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1H26" stroke="#323232" />
+                            </svg>
+                            БЛОКИРОВКА ПОЛЬЗОВАТЕЛЯ
+                            <svg width="26" height="2" viewBox="0 0 26 2" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1H26" stroke="#323232" />
+                            </svg>
+                        </h2>
+                        <button class="modal_close" id="closeUserProfileModal">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L14 14" stroke="#A8A8A8" />
+                                <path d="M14 1L1 14" stroke="#A8A8A8" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="modal_content_text">
+                        <div class="input_group">
+                            <input type="text" id="profileFullName" readonly placeholder="Имя Фамилия">
+                            <div class="input_tooltip">Имя Фамилия</div>
+                        </div>
+
+                        <div class="input_group">
+                            <input type="text" id="profileNickname" readonly placeholder="Никнейм">
+                            <div class="input_tooltip">Никнейм</div>
+                        </div>
+
+                        <div class="form_group" style="display: flex; gap: 20px;">
+                            <div class="input_group" style="flex: 1;">
+                                <input type="text" id="profileEmail" readonly placeholder="Почта">
+                                <div class="input_tooltip">Почта</div>
+                            </div>
+                            <div class="input_group" style="flex: 1;">
+                                <input type="text" id="profilePhone" readonly placeholder="Номер">
+                                <div class="input_tooltip">Номер</div>
+                            </div>
+                        </div>
+
+                        <div class="form_group" style="display: flex; gap: 20px;">
+                            <div class="input_group" style="flex: 1;">
+                                <input type="text" id="profileSubscription" readonly placeholder="Подписка">
+                                <div class="input_tooltip">Подписка</div>
+                            </div>
+                            <div class="input_group" style="flex: 1;">
+                                <input type="text" id="profileRegDate" readonly placeholder="Дата регистрации">
+                                <div class="input_tooltip">Дата регистрации</div>
+                            </div>
+                        </div>
+
+                        <div class="modal_buttons">
+                            <button class="btn_secondary" id="backToUsersBtn">Назад</button>
+                            <button class="submit_btn" id="blockUserFromProfileBtn">Заблокировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно подтверждения блокировки пользователя -->
+        <div class="modal_overlay" id="confirmBlockUserModal" style="display: none;">
+            <div class="bgc_modal_subsc">
+                <div class="modal">
+                    <div class="modal_header">
+                        <h2 class="modal_title">
+                            <svg width="26" height="2" viewBox="0 0 26 2" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1H26" stroke="#323232" />
+                            </svg>
+                            БЛОКИРОВКА ПОЛЬЗОВАТЕЛЯ
+                            <svg width="26" height="2" viewBox="0 0 26 2" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1H26" stroke="#323232" />
+                            </svg>
+                        </h2>
+                        <button class="modal_close" id="closeConfirmBlockUserModal">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L14 14" stroke="#A8A8A8" />
+                                <path d="M14 1L1 14" stroke="#A8A8A8" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="modal_content modal_content_text">
+                        <p class="warning_del_track">Вы действительно хотите заблокировать пользователя "<span
+                                id="confirmUserName">[Имя Фамилия]</span>"?</p>
+                        <div class="modal_info">
+                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.4961 28.0005C8.59234 28.0005 2.99609 22.4042 2.99609 15.5005C2.99609 8.59674 8.59234 3.00049 15.4961 3.00049C22.3998 3.00049 27.9961 8.59674 27.9961 15.5005C27.9961 22.4042 22.3998 28.0005 15.4961 28.0005ZM14.5423 8.17049L14.6798 17.6655H16.3111L16.4486 8.17049H14.5423ZM15.4911 21.8792C16.1311 21.8792 16.6186 21.4005 16.6186 20.7767C16.6186 20.1517 16.1311 19.6742 15.4911 19.6742C15.3448 19.6716 15.1994 19.6981 15.0634 19.7524C14.9275 19.8066 14.8037 19.8875 14.6994 19.9901C14.5951 20.0928 14.5124 20.2153 14.456 20.3503C14.3996 20.4854 14.3707 20.6304 14.3711 20.7767C14.3711 21.4005 14.8661 21.8792 15.4911 21.8792Z"
+                                    fill="#A8A8A8" />
+                            </svg>
+                            <p>Напишите сообщение для пользователя, которое придет ему на номер телефона</p>
+                        </div>
+                        <textarea id="blockUserMessage" placeholder="Ваше сообщение" rows="4"
+                            class="modal_textarea"></textarea>
+                        <div class="modal_buttons">
+                            <button class="btn_secondary" id="cancelBlockUserBtn">Отмена</button>
+                            <button class="submit_btn" id="confirmBlockUserBtn">Заблокировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const userProfileModal = document.getElementById('userProfileModal');
+            const confirmBlockUserModal = document.getElementById('confirmBlockUserModal');
+
+            const profileFullName = document.getElementById('profileFullName');
+            const profileNickname = document.getElementById('profileNickname');
+            const profileEmail = document.getElementById('profileEmail');
+            const profilePhone = document.getElementById('profilePhone');
+            const profileSubscription = document.getElementById('profileSubscription');
+            const profileRegDate = document.getElementById('profileRegDate');
+            const confirmUserName = document.getElementById('confirmUserName');
+            const blockUserMessage = document.getElementById('blockUserMessage');
+
+            const closeUserProfileModal = document.getElementById('closeUserProfileModal');
+            const backToUsersBtn = document.getElementById('backToUsersBtn');
+            const blockUserFromProfileBtn = document.getElementById('blockUserFromProfileBtn');
+
+            const closeConfirmBlockUserModal = document.getElementById('closeConfirmBlockUserModal');
+            const cancelBlockUserBtn = document.getElementById('cancelBlockUserBtn');
+            const confirmBlockUserBtn = document.getElementById('confirmBlockUserBtn');
+
+            let currentUserData = null;
+
+            function openUserProfile(userData) {
+                currentUserData = userData;
+                profileFullName.value = userData.fullName || '';
+                profileNickname.value = userData.nickname || '';
+                profileEmail.value = userData.email || '';
+                profilePhone.value = userData.phone || '';
+                profileSubscription.value = userData.subscription || '';
+                profileRegDate.value = userData.regDate || '';
+
+                confirmUserName.textContent = userData.fullName || '[Неизвестный]';
+
+                userProfileModal.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeUserProfile() {
+                userProfileModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+
+            function openConfirmBlockUser() {
+                blockUserMessage.value = '';
+                confirmBlockUserModal.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeConfirmBlockUser() {
+                confirmBlockUserModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+
+
+            closeUserProfileModal?.addEventListener('click', closeUserProfile);
+            closeConfirmBlockUserModal?.addEventListener('click', closeConfirmBlockUser);
+
+            backToUsersBtn?.addEventListener('click', closeUserProfile);
+
+            blockUserFromProfileBtn?.addEventListener('click', openConfirmBlockUser);
+
+            cancelBlockUserBtn?.addEventListener('click', closeConfirmBlockUser);
+
+            confirmBlockUserBtn?.addEventListener('click', () => {
+                const message = blockUserMessage.value.trim();
+                if (!message) {
+                    alert('Пожалуйста, напишите сообщение для пользователя.');
+                    return;
+                }
+
+                console.log(`Пользователь ${currentUserData.fullName} заблокирован. Сообщение: "${message}"`);
+                alert('Пользователь успешно заблокирован.');
+
+                closeConfirmBlockUser();
+                closeUserProfile();
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    if (userProfileModal.style.display === 'flex') {
+                        closeUserProfile();
+                    } else if (confirmBlockUserModal.style.display === 'flex') {
+                        closeConfirmBlockUser();
+                    }
+                }
+            });
+
+            userProfileModal?.addEventListener('click', (e) => {
+                if (e.target === userProfileModal) closeUserProfile();
+            });
+
+            confirmBlockUserModal?.addEventListener('click', (e) => {
+                if (e.target === confirmBlockUserModal) closeConfirmBlockUser();
+            });
+
+            document.querySelectorAll('.content_admin_btn').forEach(button => {
+                button.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const row = this.closest('tr');
+                    const cells = row.cells;
+
+                    const fullName = cells[0].textContent.trim();
+                    const nickname = cells[1].textContent.trim();
+                    const email = cells[2].textContent.trim();
+                    const phone = cells[3].textContent.trim();
+                    const subscription = cells[4].textContent.trim();
+                    const regDate = cells[5].textContent.trim();
+
+                    openUserProfile({
+                        fullName,
+                        nickname,
+                        email,
+                        phone,
+                        subscription,
+                        regDate
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
